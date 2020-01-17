@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">CollegeEvent</string>
+    <string name="set_reminder">SET REMINDER</string>
+    <string name="time">TIME</string>
+    <string name="date">DATE</string>
+    <string name="venue">VENUE</string>
+
 </resources>
