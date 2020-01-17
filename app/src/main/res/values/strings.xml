@@ -5,4 +5,7 @@
     <string name="date">DATE</string>
     <string name="venue">VENUE</string>
 
+    <string name="college_events">COLLEGE EVENTS</string>
+    <string name="group_events">GROUP EVENTS</string>
+
 </resources>
