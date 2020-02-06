@@ -6,16 +6,27 @@ public class Event_Model {
     String eventTime;
     String venue;
     String reminderSet;
+    String description;
 
 
-    public Event_Model(String title, String eventDate, String eventTime, String venue, String reminderSet) {
+    public Event_Model() {
+    }
+
+    public Event_Model(String title, String eventDate, String eventTime, String venue, String reminderSet, String description) {
         this.title = title;
         this.eventDate = eventDate;
         this.eventTime = eventTime;
         this.venue = venue;
         this.reminderSet = reminderSet;
+        this.description = description;
+    }
+    public void setDescription(String description) {
+        this.description = description;
     }
 
+    public String getDescription() {
+        return description;
+    }
     public String getTitle() {
         return title;
     }
